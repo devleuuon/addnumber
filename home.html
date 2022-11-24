@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adicionando números</title>
+</head>
+<body>
+    <header>
+        <h1>Adicionando Números</h1>
+    </header>
+
+    <section>
+        <div>
+            Número (Entre 1 e 50):
+            <input type="number" name="tabu" id="numero" placeholder="Insira um número">
+            <input type="button" value="Adicionar" onclick="adicionar ()">
+        </div>
+        <div>
+            <select name="sele" id="sele" size="10">
+                <option value="">Digite um número acima!</option>
+            </select> <!--size, número de linhas no select-->
+        </div>
+        <div>
+            <input type="button" value="Finalizar" onclick="finalizar ()">
+        </div>
+
+        <div id="res">
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Lennon Fonseca</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

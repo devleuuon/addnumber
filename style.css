@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+    line-height: 40px;
+    margin: auto;
+}
+
+#sele {
+    width: 200px;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    padding-top: 30px;
+}
